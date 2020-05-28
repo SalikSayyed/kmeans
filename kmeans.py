@@ -18,4 +18,4 @@ for i in range(3):
 
 from sklearn.metrics import accuracy_score
 score=accuracy_score(digits.target, labels)
-print(score)
+print(score*100)
